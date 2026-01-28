@@ -120,21 +120,6 @@ This makes it ideal for **academic evaluation, learning, and portfolio showcasin
 
 ---
 
-## 🎓 Academic Value
 
-This project demonstrates strong mastery of **DSA concepts**, making it ideal for:
-
-- University evaluations  
-- Viva / project defense  
-- Portfolio and resume showcasing  
-
----
-
-## 📌 Author
-
-**Your Name Here**  
-*(Add university, course, or contact details if needed)*
-
----
 
 ⭐ If you find this project useful, consider giving it a star!
