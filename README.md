@@ -1,130 +1,140 @@
-🚀 Freelancing Marketplace System
+# 🚀 Freelancing Marketplace System
 
-A console-based freelancing platform built using core Data Structures & Algorithms to simulate real-world project posting, proposal ranking, and job assignment workflows.
-Designed for academic rigor, focusing on efficiency, correctness, and manual implementation without STL.
+A **console-based freelancing platform** built using **core Data Structures & Algorithms** to simulate real-world project posting, proposal ranking, and job assignment workflows.
 
-📖 Project Overview
+This project is designed for **academic rigor**, emphasizing **efficiency, correctness, and manual implementation** of data structures **without using STL**.
 
-The Freelancing Marketplace System is a fully modular, console-based simulation of a real freelancing platform.
-It models the complete lifecycle of freelancing interactions between Clients, Freelancers, and Admins, emphasizing optimal data structure selection for performance-critical operations.
+---
 
-Unlike GUI-focused applications, this project prioritizes algorithmic efficiency, time–space complexity, and hands-on DSA implementation, making it ideal for academic evaluation and learning.
+## 📖 Project Overview
 
-🎯 Key Objectives
+The **Freelancing Marketplace System** is a fully modular, console-based simulation of a real freelancing platform.  
+It models the complete lifecycle of freelancing interactions between **Clients**, **Freelancers**, and **Admins**, with a strong focus on selecting optimal data structures for performance-critical operations.
 
-Simulate a real-world freelancing workflow
+Unlike GUI-based applications, this system prioritizes:
 
-Apply multiple data structures for different system needs
+- Algorithmic efficiency  
+- Time & space complexity  
+- Hands-on DSA implementation  
 
-Optimize frequent operations like search, insert, rank, and delete
+This makes it ideal for **academic evaluation, learning, and portfolio showcasing**.
 
-Demonstrate real-life applications of DSA concepts
+---
 
-Implement undo/redo functionality manually
+## 🎯 Key Objectives
 
-👥 User Roles
-👤 Client
+- Simulate a real-world freelancing workflow  
+- Apply multiple data structures for different system needs  
+- Optimize frequent operations (search, insert, rank, delete)  
+- Demonstrate real-life applications of DSA concepts  
+- Implement **Undo / Redo** functionality manually  
 
-Post projects
+---
 
-View proposals
+## 👥 User Roles
 
-Select best freelancer
+### 👤 Client
+- Post projects  
+- View proposals  
+- Select the best freelancer  
 
-👨‍💻 Freelancer
+### 👨‍💻 Freelancer
+- Browse available projects  
+- Submit proposals  
+- Get ranked based on performance  
 
-Browse available projects
+### 🛠️ Admin
+- Manage users  
+- Approve projects  
+- Monitor system activities  
 
-Submit proposals
+---
 
-Get ranked based on performance
+## 🧠 Data Structures Used
 
-🛠️ Admin
+| Data Structure | Purpose |
+|---------------|--------|
+| Hash Table | Fast user registration & login |
+| AVL Tree | Balanced project storage |
+| Linked List | Dynamic proposal management |
+| Max Heap | Automatic proposal ranking |
+| Binary Search Tree (BST) | Freelancer ranking |
+| Queue | Fair job assignment (FIFO) |
+| Stack | Undo / Redo operations |
 
-Manage users
+> ⚠️ All data structures are **manually implemented** (no STL usage) to strengthen conceptual understanding.
 
-Approve projects
+---
 
-Monitor system activities
+## 🔄 System Workflow
 
-🧠 Data Structures Used
-Data Structure	Purpose
-Hash Table	Fast user registration & login
-AVL Tree	Balanced project storage
-Linked List	Dynamic proposal management
-Max Heap	Automatic proposal ranking
-BST	Freelancer ranking
-Queue	Fair job assignment
-Stack	Undo / Redo operations
+1. User Registration → **Hash Table**  
+2. Project Posting → **AVL Tree**  
+3. Proposal Submission → **Linked List + Max Heap**  
+4. Freelancer Ranking → **BST**  
+5. Project Approval → **Admin**  
+6. Job Assignment → **Queue**  
+7. Undo / Redo Actions → **Stack**  
 
-Each structure was manually implemented to strengthen conceptual understanding.
+---
 
-🔄 System Workflow
+## 🧪 Feature Highlights
 
-User Registration (Hash Table)
+- ✅ Automatic proposal scoring & ranking  
+- ✅ Fair FIFO job processing  
+- ✅ Undo & redo support for critical actions  
+- ✅ Modular architecture for easy extension  
 
-Project Posting (AVL Tree)
+---
 
-Proposal Submission (Linked List + Max Heap)
+## ⏱️ Time & Space Efficiency
 
-Freelancer Ranking (BST)
+- Most operations optimized to **O(1)** or **O(log n)**  
+- Balanced trees prevent performance degradation  
+- Efficient memory usage with dynamic data structures  
 
-Project Approval (Admin)
+---
 
-Job Assignment (Queue)
+## 🚧 Limitations
 
-Undo/Redo Actions (Stack)
+- Console-based UI only  
+- No database or file persistence  
+- Single-user execution  
 
-🧪 Features Highlight
+---
 
-Automatic proposal scoring & ranking
+## 🔮 Future Enhancements
 
-Fair FIFO job processing
+- GUI or web-based interface  
+- Database integration  
+- Multi-user concurrency  
+- Advanced ranking algorithms  
 
-Undo & redo for critical actions
+---
 
-Modular architecture for easy extension
+## 🧑‍💻 Tech Stack
 
-⏱️ Time & Space Efficiency
+- **Language:** C++  
+- **Paradigm:** Object-Oriented Programming (OOP)  
+- **Core Focus:** Data Structures & Algorithms  
 
-Most operations optimized to O(1) or O(log n)
+---
 
-Balanced trees prevent performance degradation
+## 🎓 Academic Value
 
-Efficient memory usage with dynamic structures
+This project demonstrates strong mastery of **DSA concepts**, making it ideal for:
 
-🚧 Limitations
+- University evaluations  
+- Viva / project defense  
+- Portfolio and resume showcasing  
 
-Console-based UI only
+---
 
-No database or file persistence
+## 📌 Author
 
-Single-user execution
+**Your Name Here**  
+*(Add university, course, or contact details if needed)*
 
-🔮 Future Enhancements
+---
 
-GUI or web interface
-
-Database integration
-
-Multi-user concurrency
-
-Advanced ranking algorithms
-
-🧑‍💻 Tech Stack
-
-Language: C++
-
-Paradigm: Object-Oriented Programming
-
-Focus: Data Structures & Algorithms
-
-🎓 Academic Value
-
-This project demonstrates deep mastery of DSA concepts, making it ideal for:
-
-University evaluations
-
-Viva / project defense
-
-Portfolio showcasing
+⭐ If you find this project useful, consider giving it a star!
